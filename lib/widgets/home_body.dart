@@ -20,8 +20,31 @@ class homeBody extends StatelessWidget {
               ),
             ),
           ),
-          Text('Ayman Mohamed '),
+          Text('Ayman Mohamed',style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.w500,
+            fontSize: 32,
+            fontFamily: 'Pacifico',
+          ),
+          ),
+          SizedBox(
+            height: 5,
+          ),
+           Text('FLUTTER DEVELOPER',style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.w200,
+            fontSize: 16,
+          ),
+          ),
 
+            Container(
+              color: Colors.white,
+              child: Row(
+                children: [
+                 Icon(Icons.phone),
+                ],
+              ),
+            ),
 
         ],
       ),
