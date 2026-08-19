@@ -8,7 +8,11 @@ class homeBody extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xff2B475E),
       body: Column(
+        
         children: [
+          SizedBox(
+            height: 45,
+          ),
          Center(
   child: Container(
     width: 344, // قطر الدائرة الكبرى (172 * 2)
@@ -22,7 +26,7 @@ class homeBody extends StatelessWidget {
       width: 340, // قطر الدائرة الصغرى (170 * 2)
       height: 340,
       decoration: const BoxDecoration(
-        color: Colors.grey, // يمكنك وضع لون خلفية للصورة إذا كانت شفافة
+        color:Colors.grey, // يمكنك وضع لون خلفية للصورة إذا كانت شفافة
         shape: BoxShape.circle,
         image: DecorationImage(
           image: AssetImage('assets/p.png'),
@@ -52,8 +56,9 @@ class homeBody extends StatelessWidget {
           Divider(
             indent: 45,
             endIndent: 45,
-
           color: Color(0xff6C8090),
+          height: 30,
+
           ),
 
             Padding(
